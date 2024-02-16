@@ -1,0 +1,26 @@
+program: src/train.py
+command:
+  - python3
+  - ${program}
+  - --config_path
+  - configs/config_mqar.yaml
+  - ${args}
+project: PROJECT
+method: grid
+name: "main_fig"
+metric:
+  name: valid/accuracy
+  goal: maximize
+parameters:
+  learning_rate:
+    values: [5e-4, 1e-3, 3e-3, 1e-2]
+  model.sequence_mixer.name:
+    values: ["rebased", "based", "rwkv", "mamba", "conv_attention"]
+  seed:
+    values: [42, 43, 44, 45, 46]
+  model.d_model:
+    values: [64, 128, 256, 512]
+  data.input_seq_len:
+    values: [128, 256, 512, 1024, 2048]
+  data.batch_size:
+    value: 512

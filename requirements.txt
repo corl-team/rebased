@@ -1,0 +1,12 @@
+pydantic
+pyrallis 
+rich 
+ray 
+PyYAML 
+einops 
+opt_einsum
+triton==2.2.0 
+Ninja 
+causal_conv1d 
+mamba_ssm 
+flash_attn

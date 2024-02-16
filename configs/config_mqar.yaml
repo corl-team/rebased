@@ -1,0 +1,19 @@
+data:
+  builder:
+    name: "src.data.associative_recall.multiquery_ar"
+    kwargs:
+      train_power_a: 0.01
+      test_power_a: 0.01
+      random_non_queries: False
+  
+model:
+  state_mixer:
+    name: "torch.nn.Identity"
+    kwargs: {}
+  
+max_epochs: 64
+run_id: "mqar_sweep"
+
+logger:
+  project_name: "PROJECT"
+  entity: "ENTITY"
