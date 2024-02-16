@@ -28,7 +28,7 @@ wandb sweep configs/main_fig_sweep.yaml
 wandb agent entity/project/id
 ```
 
-When the sweep is finished, run all the commands in [Jupyter notebook](main_fig_parsing.ipynb) to obtain the plot and get results for MQAR dataset for Based, Rebased, RWKV, Mamba, ConvAttention architectures, different model dimensions and sequence lengths:
+When the sweep is finished, run all the commands in [Jupyter notebook](main_fig_parsing.ipynb) to obtain the plot and get results for the MQAR dataset for Based, Rebased, RWKV, Mamba, ConvAttention architectures, different model dimensions and sequence lengths:
 ![Main figure](main_fig.png)
 
 
