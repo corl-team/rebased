@@ -257,9 +257,7 @@ class ReBased(nn.Module):
         o = self.proj_o(o)
         o = self.dropout(o)
         return o
-
-    # https://github.com/HazyResearch/zoology/blob/main/zoology/mixers/based.py#L119
-
+    
     # def forward_reference(self, hidden_states: torch.Tensor, filters: torch.Tensor = None, *args, **kwargs):
     #     """
     #     x (torch.Tensor): tensor of shape (b, d, l)

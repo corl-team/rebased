@@ -8,9 +8,6 @@ import triton.language as tl
 from fla.ops.triton.utils import contiguous
 from torch.cuda.amp import custom_bwd, custom_fwd
 
-# Based: An Educational and Effective Sequence Mixer
-# https://hazyresearch.stanford.edu/blog/2023-12-11-zoology2-based
-
 
 @triton.jit
 def parallel_based_fwd_kernel(
