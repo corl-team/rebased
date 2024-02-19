@@ -22,7 +22,7 @@ export WANDB_API_KEY="API_KEY"
 python3 src/train.py --config_path configs/simple_mqar.yaml
 ```
  
-Then, you can reproduce Figure 1 from our paper by running the [sweep](configs/main_fig_sweep.yaml). If you have multiple GPUs you can run ```wandb agent``` command several times:
+Then, you can reproduce Figure 1 from our paper by running the [sweep](configs/main_fig_sweep.yaml). We used ```wandb agent``` command to run sweeps:
 ```bash
 wandb sweep configs/main_fig_sweep.yaml
 wandb agent entity/project/id
