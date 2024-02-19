@@ -33,6 +33,18 @@ When the sweep is finished, run all the commands in [Jupyter notebook](main_fig_
 
 
 ## Citation
+
+```bib
+@article{rebased,
+      title={Linear Transformers with Learnable Kernel Functions are Better In-Context Models}, 
+      author={Yaroslav Aksenov and Nikita Balagansky and Sofia Maria Lo Cicero Vaina and Boris Shaposhnikov and Alexey Gorbatovski and Daniil Gavrilov},
+      year={2024},
+      eprint={2402.10644},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
 This repo was developed on top of Zoology and FLA Triton kernels. Cite them too:
 ```bib
 @article{zoology2023,
