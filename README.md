@@ -33,7 +33,7 @@ When the sweep is finished, run all the commands in [Jupyter notebook](main_fig_
 
 
 ## Citation
-
+You can cite ReBased as:
 ```bib
 @article{rebased,
       title={Linear Transformers with Learnable Kernel Functions are Better In-Context Models}, 
