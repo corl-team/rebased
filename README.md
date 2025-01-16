@@ -35,13 +35,26 @@ When the sweep is finished, run all the commands in [Jupyter notebook](main_fig_
 ## Citation
 You can cite ReBased as:
 ```bib
-@article{rebased,
-      title={Linear Transformers with Learnable Kernel Functions are Better In-Context Models}, 
-      author={Yaroslav Aksenov and Nikita Balagansky and Sofia Maria Lo Cicero Vaina and Boris Shaposhnikov and Alexey Gorbatovski and Daniil Gavrilov},
-      year={2024},
-      eprint={2402.10644},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{rebased,
+    title = "Linear Transformers with Learnable Kernel Functions are Better In-Context Models",
+    author = "Aksenov, Yaroslav  and
+      Balagansky, Nikita  and
+      Lo Cicero Vaina, Sofia  and
+      Shaposhnikov, Boris  and
+      Gorbatovski, Alexey  and
+      Gavrilov, Daniil",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.518/",
+    doi = "10.18653/v1/2024.acl-long.518",
+    pages = "9584--9597",
+    abstract = "Advancing the frontier of subquadratic architectures for Language Models (LMs) is crucial in the rapidly evolving field of natural language processing. Current innovations, including State Space Models, were initially celebrated for surpassing Transformer performance on language modeling tasks. However, these models have revealed deficiencies in essential In-Context Learning capabilities {--} a domain where the Transformer traditionally shines. The Based model emerged as a hybrid solution, blending a Linear Transformer with a kernel inspired by the Taylor expansion of exponential functions, augmented by convolutional networks. Mirroring the Transformer`s in-context adeptness, it became a strong contender in the field. In our work, we present a singular, elegant alteration to the Based kernel that amplifies its In-Context Learning abilities evaluated with the Multi-Query Associative Recall task and overall language modeling process, as demonstrated on the Pile dataset."
 }
 ```
 
